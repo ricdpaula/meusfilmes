@@ -1,0 +1,16 @@
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 34px 0px;
+    flex-direction: column;
+    background-color: #1d1d1d;
+}
+.banner h1{
+    color: red;
+    margin: 0;
+}
+.banner p{
+    color: white;
+    margin: 0;
+}

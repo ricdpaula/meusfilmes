@@ -1,0 +1,15 @@
+.categorias{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.categorias h2{
+    border-bottom: 4px solid;
+}
+.categorias .cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
