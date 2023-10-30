@@ -2,6 +2,7 @@ import { useState } from "react";
 import Banner from "./componentes/Banner/Banner";
 import Formulario from "./componentes/Formulario/Formulario";
 import Categorias from "./componentes/Categorias/Categorias";
+import Rodape from "./componentes/Rodape/Rodape";
 
 function App() {
   const [filmes, setFilmes] = useState([]);
@@ -60,6 +61,7 @@ function App() {
           filmes={filmes.filter(filme => filme.genero === categoria.genero)}
         />
       ))}
+      <Rodape/>
     </div>
   );
 }

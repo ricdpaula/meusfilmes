@@ -3,7 +3,8 @@ import './Banner.css'
 const Banner = () => {
     return (
         <header className='banner'>
-            <h1>OrganoFlix</h1>
+            <img src='/imagens/rolo-de-filme.png' alt='logo MeuFilme'/>
+            <h1>MeusFilmes</h1>
             <p>Crie cards dos seus filmes favoritos.</p>
         </header>
     )
